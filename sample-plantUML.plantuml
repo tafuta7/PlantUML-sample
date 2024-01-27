@@ -1,4 +1,4 @@
-@startuml
+@startuml MyClass
 class MyClass {
     + publicField: string
     - privateField: int
