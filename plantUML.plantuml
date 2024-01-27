@@ -1,0 +1,21 @@
+@startuml
+class MyClass {
+    + publicField: string
+    - privateField: int
+    # protectedField: bool
+    ~ packageField: float
+    <<create>> + constructor()
+    + publicMethod(): void
+    - privateMethod(): int
+    # protectedMethod(): bool
+    ~ packageMethod(): float
+}
+
+class AnotherClass {
+    + publicField: string
+    + publicMethod(): void
+}
+
+MyClass --> AnotherClass
+
+@enduml
